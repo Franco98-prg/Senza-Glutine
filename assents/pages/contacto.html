@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">    
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="../styles/estilo.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <img class="img-nav" src="../icons/img/senza glutine small 2.jpg" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bar-chart-steps" viewBox="0 0 16 16">
+                    <path d="M.5 0a.5.5 0 0 1 .5.5v15a.5.5 0 0 1-1 0V.5A.5.5 0 0 1 .5 0M2 1.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Contactanos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/assents/index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../pages/cursos.html">Cursos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../pages/about.html">Sobre Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../pages/FAQs.html">FAQS</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+    <main>
+        <section>
+            <h1 class="titulos">ponte en contacto con nosotros</h1>
+        </section>
+        <section class=".container-fluid contact-container">
+            <article class="row">
+                <div class="col-md-4">
+
+                    <p>¿Tiene alguna pregunta? Nuestro equipo estará encantado de ayudarle.
+                        Horario: de 9:00 a 17:00 (hora del Pacífico), de lunes a viernes.</p>                    
+                    <h4>telefono</h4>
+                    <p>800-677-0831 (Llamada gratuita a sudamerica)</p>
+                    <h4>correo electronico</h4>  
+                    <p>Atención al cliente:support@sglutine.com</p>
+                    <p>Asociaciones/desarrollo empresarial:partners@sglutine.com</p>
+                    <p>Solo consultas de prensa:pr@sglutine.com</p>
+                </div>
+                       
+                <div class="col-md-8">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="inputCity" class=></label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="Ciudad">
+                    </div>
+                    <div >
+                        <label for="inputState" class=""></label>
+                        <select id="inputState" class="form-select" placeholder="Pais">
+                            <option selected>Pais</option>
+                            <option>Argentina</option>
+                            <option>Bolivia</option>
+                            <option>Paraguay</option>
+                            <option>Uruguay</option>
+                            <option>Brasil</option>
+                            <option>Chile</option>
+                            <option>Otros</option>
+                        </select>
+                    </div> 
+                    <div>
+                        <label for="inputEmail4" class="form-label"></label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
+                    <div>
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Comentario" ></textarea>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer">
+            <figure>
+                <img class="img-footer" src="../icons/img/Senza glutine logotipo 150x100.jpg" alt="">
+            </figure>
+            <div>
+                <a href="">RRSS</a>
+                <p>© 2022  . TODOS LOS DERECHOS RESERVADOS. WEB BY FRANCO.COM</p>
+            </div>
+        </section>
+    </footer>
+
+
+
+
+
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+</body>
+</html>
