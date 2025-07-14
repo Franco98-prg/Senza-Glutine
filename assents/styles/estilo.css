@@ -191,8 +191,16 @@ h3{
     padding: 40px 10% 6px 10%;
 }
 
+/*------add hover------*/
+.curso-button:hover {
+    background-color: rgba(140, 140, 140, 0.525);
+}
+.btn-outline-:hover {
+    background-color: rgba(140, 140, 140, 0.525);
+}
 
-/*MEDIA*/
+
+/*----------------MEDIA---------------*/
 @media (max-width: 600px) {
 
     body {
