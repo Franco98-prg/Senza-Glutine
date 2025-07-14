@@ -18,7 +18,7 @@ body{
     background-color: rgb(255, 255, 247);
     text-transform: capitalize;
     font-family: "Rubik", sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.6;
 }
 
@@ -179,17 +179,79 @@ h3{
 
 /*----------------SOBRE NOSOTROS ESTILO----------------*/
 .colaboradores {
-    background-color: bisque;
+    background-color: rgba(255, 255, 247,);
 }
 .rounded {
     padding: 1px;
 }
+
 
 /*---------------CONTACTO PAGES---------------*/
 .contact-container {
     padding: 40px 10% 6px 10%;
 }
 
+
+/*MEDIA*/
+@media (max-width: 600px) {
+
+    body {
+
+        font-size: 10px;
+    }
+    .img-nav {
+        width: 60px;
+    }
+    h1{
+        font-size: 16px;
+    }
+
+    .titulos {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+    .bi {
+        height: 18px;
+        width: 18px; 
+    }
+    .img-footer{
+        width: 60px;
+    }
+}
+
+
+@media (max-width: 350px) {
+
+    body {
+
+        font-size: 8px;
+    }
+    .img-nav {
+        width: 40px;
+    }
+    h1{
+        font-size: 12px;
+    }
+
+    .titulos {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+    .bi {
+        height: 14px;
+        width: 14px; 
+    }
+    
+    .img-footer {
+        width: 40px;
+    }
+}
 
 
 
