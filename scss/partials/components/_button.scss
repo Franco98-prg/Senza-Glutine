@@ -1,0 +1,15 @@
+@use "../utilities/variables";
+@use "../utilities/extend";
+
+
+button {  
+    @extend %button;
+    background-color: variables.$background-button;
+
+    &:hover { 
+        background-color: variables.$background-hover;
+    }
+
+} 
+
+

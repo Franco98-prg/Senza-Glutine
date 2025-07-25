@@ -1,0 +1,19 @@
+@use "./variables";
+%button {  
+
+    color: variables.$black-pure; 
+
+    display: inline-block; 
+
+    text-decoration: none; 
+
+    border: 1px solid variables.$border-button; 
+
+    padding: 6px 14px; 
+
+    border-radius: 15px;
+
+    transition: background-color 0.5s ease;
+    
+
+}

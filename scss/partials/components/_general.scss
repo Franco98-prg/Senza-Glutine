@@ -1,0 +1,246 @@
+@use "../utilities/variables";
+@use "../utilities/mixins";
+
+body{ 
+
+    margin: 0 32px; 
+
+    background-color: variables.$background-gral; 
+
+    text-transform: capitalize; 
+
+    font-family: "Rubik", sans-serif; 
+
+    line-height: 1.6; 
+
+
+    h1 { 
+
+        text-align: center; 
+
+        text-decoration: underline; 
+
+        font-size: variables.$title-h1-size; 
+
+        padding: 16px; 
+
+        margin: 16px; 
+
+    } 
+
+    h3{ 
+
+        text-align: center; 
+
+        text-decoration: underline; 
+
+        font-size: variables.$title-h3-size; 
+
+    }  
+
+    //ESTILOS TITULOS
+
+    .titulos{ 
+
+        text-align: center; 
+
+        text-decoration: underline; 
+
+        font-size: variables.$title-gral-size; 
+
+    
+
+    } 
+
+    //PARRAFOS PRINCIPAL 
+    .parrafo-gral{ 
+
+        text-align: center; 
+
+        font-style: italic; 
+
+    } 
+
+    p {
+        font-size: variables.$p-size;
+    }
+} 
+
+
+.cards { 
+
+    @include mixins.flex (row, space-evenly, center);
+
+    flex-wrap: wrap; 
+
+    gap: 5px; 
+
+    padding: 20px 12px 25px 12px; 
+
+    .card-modif { 
+
+        background-color: variables.$background-paleta; 
+
+    } 
+
+} 
+//----------------SOBRE NOSOTROS ESTILO----------------
+
+
+.rounded { 
+
+    padding: 1px; 
+
+} 
+
+//---------------FAQS PAGES---------------
+
+.list-group-item { 
+
+    background-color: variables.$background-paleta; 
+
+    color: variables.$black-pure; 
+
+     
+
+} 
+
+
+//---------------CONTACTO PAGES---------------
+
+.contact-container { 
+
+    padding: 40px 10% 6px 10%; 
+
+} 
+
+
+.data-aos {
+    overflow-x: visible;
+}
+//----------------MEDIA--------------- 
+
+
+@media (max-width: 600px) { 
+
+ 
+
+    body { 
+
+ 
+
+        font-size: 10px; 
+
+    } 
+
+    .img-nav { 
+
+        width: 60px; 
+
+    } 
+
+    h1{ 
+
+        font-size: 16px; 
+
+    } 
+
+ 
+
+    .titulos { 
+
+        font-size: 16px; 
+
+    } 
+
+ 
+
+    h3 { 
+
+        font-size: 12px; 
+
+    } 
+
+    .bi { 
+
+        height: 18px; 
+
+        width: 18px;  
+
+    } 
+
+    .img-footer{ 
+
+        width: 60px; 
+
+    } 
+
+} 
+
+ 
+
+ 
+
+@media (max-width: 350px) { 
+
+ 
+
+    body { 
+
+ 
+
+        font-size: 8px; 
+
+    } 
+
+    .img-nav { 
+
+        width: 40px; 
+
+    } 
+
+    h1{ 
+
+        font-size: 12px; 
+
+    } 
+
+ 
+
+    .titulos { 
+
+        font-size: 12px; 
+
+    } 
+
+ 
+
+    h3 { 
+
+        font-size: 10px; 
+
+    } 
+
+    .bi { 
+
+        height: 14px; 
+
+        width: 14px;  
+
+    } 
+
+     
+
+    .img-footer { 
+
+        width: 40px; 
+
+    } 
+
+} 
+
+@media (max-width: 999px) {
+  .data-aos {
+    overflow-x: visible;
+  }
+}

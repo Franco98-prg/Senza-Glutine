@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  padding-top: 30px;
+}
+
+.navbar-brand {
+  font-size: 18px;
+}
+
+.img-nav {
+  width: 100px;
+}
+
+.bi {
+  height: 26px;
+  width: 26px;
+}
+
+body {
+  margin: 0 32px;
+  background-color: rgb(255, 255, 247);
+  text-transform: capitalize;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.6;
+}
+body h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 35px;
+  padding: 16px;
+  margin: 16px;
+}
+body h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 18px;
+}
+body .titulos {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 18px;
+}
+body .parrafo-gral {
+  text-align: center;
+  font-style: italic;
+}
+body p {
+  font-size: 14px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 20px 12px 25px 12px;
+}
+.cards .card-modif {
+  background-color: rgb(255, 228, 196);
+}
+
+.rounded {
+  padding: 1px;
+}
+
+.list-group-item {
+  background-color: rgb(255, 228, 196);
+  color: #000000;
+}
+
+.contact-container {
+  padding: 40px 10% 6px 10%;
+}
+
+.data-aos {
+  overflow-x: visible;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 10px;
+  }
+  .img-nav {
+    width: 60px;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  .titulos {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  .bi {
+    height: 18px;
+    width: 18px;
+  }
+  .img-footer {
+    width: 60px;
+  }
+}
+@media (max-width: 350px) {
+  body {
+    font-size: 8px;
+  }
+  .img-nav {
+    width: 40px;
+  }
+  h1 {
+    font-size: 12px;
+  }
+  .titulos {
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 10px;
+  }
+  .bi {
+    height: 14px;
+    width: 14px;
+  }
+  .img-footer {
+    width: 40px;
+  }
+}
+@media (max-width: 999px) {
+  .data-aos {
+    overflow-x: visible;
+  }
+}
+button {
+  color: #000000;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #000000;
+  padding: 6px 14px;
+  border-radius: 15px;
+  transition: background-color 0.5s ease;
+}
+
+button {
+  background-color: rgba(255, 209, 152, 0.619);
+}
+button:hover {
+  background-color: rgba(140, 140, 140, 0.525);
+}
+
+.curso-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 16px;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.curso-conteiner .curso {
+  padding: 16px;
+  background-color: rgb(255, 228, 196);
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 300px;
+}
+.curso-conteiner .curso img {
+  width: 100%;
+}
+.curso-conteiner .curso h3 {
+  text-align: center;
+  margin: 16px 0;
+}
+.curso-conteiner .curso p {
+  text-align: center;
+  margin: 8px 0;
+}
+
+.footer {
+  color: rgb(62, 65, 64);
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+}
+
+.img-footer {
+  width: 100px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,47 @@
+@use "../utilities/variables";
+@use "../utilities/mixins";
+.curso-conteiner { 
+    @include mixins.flex (row, center, flex-start);
+
+    margin: 16px;
+
+    gap: 60px; 
+
+    flex-wrap: wrap; 
+
+
+    .curso { 
+
+        padding: 16px; 
+
+        background-color: variables.$background-paleta; 
+
+        border: 1px solid  variables.$border-button; 
+
+        border-radius: 5px; 
+
+        width: 300px; 
+        img { 
+
+            width: 100%; 
+
+        } 
+        h3 { 
+
+            text-align: center; 
+
+            margin: 16px 0; 
+
+        }
+        p { 
+
+            text-align: center; 
+
+            margin: 8px 0; 
+
+        } 
+
+    } 
+ 
+
+}  
